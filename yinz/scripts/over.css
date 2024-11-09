@@ -1,0 +1,44 @@
+html {
+	font-size: 16px;
+	color: #000000;
+	font-family: "helvetica", sans-serif;
+	background color: #f4cb6e;
+}
+	
+
+body {
+	background-color: #f4cb6e;
+	width: 600px;
+	margin: 20px auto 50px;
+	padding: 20px 20px 20px 20px;
+	color: #000000;
+	
+}
+
+a,a:visited {
+	color: #FC4A6C;
+	text-decoration: none;
+	
+}
+
+table {
+	width: 600px;
+	border: 0px;
+	/*margin: 10px;*/
+	background: transparent;
+	
+}
+#issue {
+	width: 600px;
+	border: 1px #f4cb6e;
+	border-collapse: collapse;
+	decoration: dashed 10px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+table td, th {
+	border: 1px solid #f4cb6e; /* inserts internal table borders */
+	padding: 15;
+}
+

@@ -1,0 +1,115 @@
+
+<html dir="ltr">
+    <head>
+        <title>YINZ CITY</title>
+		<style type="text/css">
+		html {
+			font-size: 16px;
+			color: #000000;
+			font-family: "helvetica", sans-serif;
+			background color: #86234a;
+		}
+	
+
+		body {
+			background-color: #86234a;
+			margin: 10px auto;
+			color: #000000;
+			margin: 10px auto 50px;
+		}
+
+		p{
+			font-size:16;
+			line-height: 24px;
+		}
+
+		a,a:visited {
+			color: #000000;
+			text-decoration: none;
+	
+		}
+		a:hover {
+			color: #FFFFFF;
+		}
+
+		table {
+			width: 60%;
+			border: 0px;
+			background: transparent;
+	
+		}
+
+		table td, th {
+			padding: 15;
+		}
+		#header {
+			width: 60%;
+			top: 0;
+			margin-left: auto;
+			margin-right: auto;
+	
+		}
+		
+		#text {
+			width: 60%;
+			border: 1px #f4cb6e;
+			border-collapse: collapse;
+			decoration: dashed 10px;
+			background-color: #FFFFFF;
+			text-align: center;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<table id="header">
+		            <tbody>
+		
+						<tr>
+							<td>
+								<b><a href="index.html">HOME</a></b>
+							</td>
+		    				<td>
+								<b><a href="issues.html">ISSUES</a></b>
+		    				</td>
+							<td>
+								<b><a href="minis.html">MINI COMICS</a></b>
+							</td>
+		    				<td>
+								<b><a href="kids.html">CHARACTERS</a></b>
+		    				</td>
+							<td>
+								<b><a href="about.html">ABOUT</a></b>
+		    				</td>
+		    				<td>
+								<b><a target="_blank" href="http://www.higu.cool">WWW.HIGU.COOL</a></b>
+		    				</td>
+		    			</tr>
+		    		</table>
+		<center>
+			<img width="470" src="a/yinz-sage-copy.png">
+            <table id="text">
+            <tbody>
+		    		<tr>
+            			<td>
+							<p><b>SUSQUEHANNA "SAGE" KOSKI</b> <i>they/them</i></p>
+							<p>Around 6-feet tall and emanating chaotic energy even at rest, Susquehanna - better known as Sage - is mayhem waiting to happen. Despite being deeply empathetic, Sage is set in their ways and doesn’t care how other people feel about their approach to life; everything they do makes perfect sense to them, usually. They're a master of setting their own personal boundaries, but they're cavelier when explaining their reasoning. Their absurdity is charming, to a point, but their enthusiasm can be off-putting. Their seemingly incomprehensible worldviews can’t save them from a nagging personal restlessness. No one knows what they’re thinking, and it seems like Sage might not either. They make their living as a painter of spiritual icons.</p>
+						</td>
+                	</tr>
+            </tbody>
+        </table>
+<script>
+	let myImage = document.querySelector('img');
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/cat-sage.png') {
+	      myImage.setAttribute('src','a/yinz-sage-copy.png');
+	    } else {
+	      myImage.setAttribute('src','a/cat-sage.png');
+	    }
+	}
+
+</script>
+	
+</body>
